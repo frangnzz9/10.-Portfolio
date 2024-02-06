@@ -1,0 +1,23 @@
+footer{
+    background-color: nth($clrs, 3 );
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+        color: nth($clrs, 2 );
+        padding: 0px 10px;
+    }
+    div{
+    color: nth($clrs, 2 );
+}
+}
+
+@media (hover:hover){
+    footer a:hover {
+        color: nth($clrs, 5 );
+    }
+    footer div:hover{
+        color: nth($clrs, 5 );
+    }
+}

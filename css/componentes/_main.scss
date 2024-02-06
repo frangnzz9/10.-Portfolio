@@ -1,0 +1,108 @@
+main{
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#servicios{
+    height: 400px;
+    width: 100%;
+    background: nth($clrs, 4 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    p{
+        color: nth($clrs, 2 );
+        font-size: 25px;
+    }
+    div{
+        display: flex;
+        gap: 25px;
+    }
+}
+
+#portfolio{
+    h4{
+        text-align: center;
+        padding-top: 35px;
+        font-size: 25px;
+    }
+    div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+    }
+        img{
+        height: 300px;
+        width: 500px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:870px){
+    #portfolio div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        img{
+            height: 200px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+}   
+}
+
+@media (min-width: 870px) and (max-width:1060px){
+    #portfolio div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        img{
+            height: 200px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+}   
+}
+
+#contacto{
+    padding: 100px;
+    width: 100%; 
+    background-color: nth($clrs, 4 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    h4{
+        font-size: 25px;
+        color: nth($clrs, 2 );
+    }
+    input,
+    textarea{
+        width: 500px;
+    }
+}
+@media (max-width:768px){
+input,
+textarea{
+    width: 300px;
+}
+}
+

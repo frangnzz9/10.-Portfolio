@@ -1,0 +1,18 @@
+@import './base/listas';
+@import './componentes/header';
+@import './componentes/section';
+@import './componentes/main';
+@import './componentes/footer';
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Nunito", sans-serif;
+   font-weight: 700;
+}
+
+body{
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
