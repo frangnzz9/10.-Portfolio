@@ -21,3 +21,12 @@ footer{
         color: nth($clrs, 5 );
     }
 }
+
+@media (max-width:515px){
+    footer{
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+}

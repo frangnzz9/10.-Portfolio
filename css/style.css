@@ -167,10 +167,10 @@ main {
   width: 500px;
 }
 
-@media (max-width: 768px) {
-  input,
-  textarea {
-    width: 300px;
+@media (max-width: 600px) {
+  #contacto input,
+  #contacto textarea {
+    width: 250px;
   }
 }
 footer {
@@ -194,6 +194,14 @@ footer div {
   }
   footer div:hover {
     color: #ffffff;
+  }
+}
+@media (max-width: 515px) {
+  footer {
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
   }
 }
 * {

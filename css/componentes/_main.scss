@@ -99,10 +99,12 @@ main{
         width: 500px;
     }
 }
-@media (max-width:768px){
-input,
-textarea{
-    width: 300px;
-}
+@media (max-width:600px){
+    #contacto{
+        input,
+        textarea{
+            width: 250px;
+        }
+    }
 }
 
